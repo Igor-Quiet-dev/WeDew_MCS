@@ -1,0 +1,71 @@
+@import url(reset.css);
+body {
+	background-image: url(../img/life1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+     }
+.container{
+	background: rgba(4, 142, 117, 0.7); 
+	margin-right:12%;
+	margin-left:12%;
+	font-family: Sniglet, serif; 
+	font-size: 24px;
+	color:white;
+	text-shadow: 10px 5px 10px black;
+	line-height: 100px;}			
+.img_container{
+	background:rgb(7 7 7);
+	background-image: url(../img/life.jpg);
+	height: 280px;
+	margin-left:12%;
+	margin-right:12%;
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;}
+
+.menu-container1{
+	background:rgba(4, 142, 117, 0.7);
+	margin-left:12%;
+	margin-right:12%;
+	line-height: 100px;
+    font-family: Lilita One: serif;
+	font-size: 26px;
+    text-shadow: 10px 5px 10px black}
+
+.stories{
+	background: rgba(4, 142, 117, 0.7);
+	margin-left:12%;
+	margin-right:12%;
+	font-family: Sniglet, serif;
+    color:black;}
+      .headline{
+	         font-size: 26px;
+	         color: white;
+	         text-shadow: 10px 5px 10px black}
+      
+
+.projects{
+	background: rgba(4, 142, 117, 0.7);
+	margin-left:12%;
+	margin-right:12%;
+	font-family: Sniglet, serif;
+    color:black;
+    border-radius: 10px; }
+     .headline2{
+	         font-size: 26px;
+	         color: white;
+	         text-shadow: 10px 5px 10px black}
+.contacts{
+	
+	font-family: Sniglet, serif;
+	font-size: 29px;
+    text-align:  center;
+    color: white;
+	text-decoration: underline;
+	text-shadow: 10px 1px 10px black;
+	      }
+     .headline3{
+     	text-align:  center;
+	         font-size: 35px;
+	         color: white;
+	         text-shadow: 10px 5px 10px black;}
