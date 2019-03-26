@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+.contenbox{
+	width:100%;	
+}
+.headline{
+    line-height: 50px;
+	width: 100%;
+	background-color: #1E90FF;
+	font-family:'Arial','Helvetica' sans-serif;
+    position: fixed;
+    z-index: 5;
+
+}
+ .bordered1{
+	
+    width:200px ;
+    height: 950px;
+    border-radius:10px;
+    display: inline-block;
+	color: black;
+    border: 1px solid black;
+	position: relative;
+	margin:  10% 10% 15% 10%;
+	font size: 19;
+	
+}
+.bordered2{
+	
+    width:200px ;
+    height: 950px;
+    border-radius:10px;
+    display: inline-block;
+	color: black;
+    border: 1px solid black;
+	position: relative;
+	margin:  10% 15% 15% 10%;
+	font size: 19;
+   
+}
+
+.bordered3{
+	
+    width:200px ;
+    height: 950px;
+    border-radius:10px;
+    display: inline-block;
+	color: black;
+    border: 1px solid black;
+	position: absolute;	 
+	margin:  10% 15% 15% 5%;
+	font size: 19;
+	
+} 
+.footer{
+	
+	line-height: 50px;
+	width: 100%;
+	position: absolute;
+	margin-bottom: 0px;
+	background-color: #1E90FF;
+	font-family:'Arial','Helvetica' sans-serif;
+	
+
+}
