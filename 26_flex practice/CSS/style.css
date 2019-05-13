@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+.flex-cotainer {
+  height: 50px;
+  width: 1350px;
+  background-color: #A4EC4A;
+  text-shadow: 20px 10px 10px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: auto;
+  display:inline-flex; 
+  justify-content: space-between;
+  align-items:center;
+}
+
+.flex-item_logo {
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+}
+
+.flex-item_menu {
+  font-size: 16px;
+  display:inline-block;
+  color: white;
+}
+  
+.flex-item_menu li{
+  display:inline-block;
+  margin-right: 0px;
+}
+.columns{
+  height:500px;
+  width: 1350px;
+  background-image: url(../img/veganes-essen-in-den-mensen.jpg);
+  background-repeat:round; 
+  margin:auto;
+}
+.border_one{
+  width: 1200px;
+  border: 1px solid #A4EC4A;
+  box-shadow:5px 3px 4px 2px black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin:50px;
+}
+
+.flex_icon{
+  height: 300px;
+    display: flex;
+    justify-content: space-between;
+          }
+ .flex-item_icon1{
+       display: inline-flex; 
+      
+          }
+.flex-item_icon2{
+       display: inline-flex;
+      
+          }
+ .flex-item_icon3{
+       display: inline-flex; 
+       
+          }
