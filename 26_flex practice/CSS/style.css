@@ -53,17 +53,9 @@
     display: flex;
     justify-content: center;
           }
- .flex-item_icon1{
-       
-      
-          }
-.flex-item_icon2{
-       
-      
-          }
- .flex-item_icon3{
-
- }
+     .flex-item_icon1
+     .flex-item_icon2         
+     .flex-item_icon3
  .border_2{
   display: flex;
    justify-content: center;
