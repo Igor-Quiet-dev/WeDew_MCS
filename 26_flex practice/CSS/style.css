@@ -159,20 +159,20 @@ width: 100wh;
 
                   /*text 2*/
 
-                     .h2_text{                       
+                    .h2_text{                       
                      display: flex;
                      flex-direction: column;
                      justify-content: center;
                       }
 
-                     .h2_text div {
+                    .h2_text div {
                      flex: 1;
                      flex-grow: 0;
                       }
                     
                     /*headline*/
                          .h2{
-                         font-family: 'Concert One', cursive;
+                          font-family: 'Concert One', cursive;
                           height: 20%;
                           display: inline-flex;                  
                           flex-wrap: wrap;
@@ -194,7 +194,7 @@ width: 100wh;
                           }
                
  /*footer*/
-  .footer{
+ .footer{
   margin-top: 5%;
   margin-right: 5%;
   height: 50px;
