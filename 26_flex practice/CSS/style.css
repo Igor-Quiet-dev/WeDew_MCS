@@ -1,11 +1,9 @@
 @import url(reset.css);
-
+/*fon*/
 body{
 
-
-
 width: 100wh;
-    height: 90vh;
+    height: 100%;
     color: #8B4513;
     background: linear-gradient(-60deg, #E0FFFF, #7CFC00, #E6E6FA, #7CFC00);
     background-size: 400% 400%;
@@ -13,6 +11,7 @@ width: 100wh;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
     z-index: 3
+
 }
 
 @-webkit-keyframes Gradient {
@@ -52,7 +51,7 @@ width: 100wh;
     }
 }
 
-/*Шапка*/
+/*cap*/
    .flex-cotainer {
      display: flex;
      height: 70px;
@@ -63,29 +62,31 @@ width: 100wh;
      color: white;
      }
 
-        .flex-item_logo {
-              margin left: 30px;
+        .flex-item_logo { 
               font-size: 50px;
               width: 400px;
               font-family: sans-serif;
               display: inline-flex; 
               align-items: center;
               flex-wrap: nowrap;
+              margin-left: 2%;
+              font-family: 'Mali', cursive;
               }
 
            .flex-item_menu {
-                  margin right: 30px;
-                 font-size: 25px;
-                 display: inline-flex; 
-                 align-items: center;
+                font-size: 30px;
+                display: inline-flex; 
+                align-items: center;
+                margin-right: 2%;
+                text-decoration: none;
+                font-family: 'Mali', cursive;
                 }
   
-            .flex-item_menu li{
-                 display: inline-block;
-                }
-/*баннер*/
-
-
+            .flex-item_menu a{
+              text-decoration: none;
+            }
+                
+/*baneer*/
      .columns{ 
         display: flex; 
         justify-content: center;
@@ -99,66 +100,107 @@ width: 100wh;
       justify-content: center;
       margin: 10%;
           }
+
+          .h1_1{
+            display: inline-flex;
+            margin-bottom: 2%;
+            font-family: 'Concert One', cursive;
+            letter-spacing: 8px;
+            font-size: 35px;              
+          }
+
           .border_one{
             width: 1200px;
             border: 1px solid #8B4513;
             padding: 2%;
             border-radius: 10px;
-                     }
+            line-height: 20px;
+            font-family: 'Concert One', cursive;
+            letter-spacing: 8px;
+            font-size: 25px;
+          }
 /*icon*/
 .flex-icon{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-          }
+    margin-bottom: 15%;
+    }
      .flex-item_icon1
      .flex-item_icon2         
      .flex-item_icon3
 
  /*text 2*/
-          .border_2{
-           display: flex;
-           
 
-           margin: 10% ;            
-           float: left;
-           width: 49%;
-           margin-bottom: 5%;
-            }
-            
-          .border_two{
-                margin: auto;
-                margin-top: 5%;
+             .border_2_1{
+               display: flex; 
+               flex-wrap: wrap;
+              }
+
+           /*block with text and icon*/ 
+             .border_2_2{
+                margin:auto;
+                margin-bottom: 15%;            
                 width: 1200px;
-                height: 150px;
                 border: 1px solid #8B4513;
                 padding: 2%;
                 border-radius: 10px;
-                 display: flex;
-                justify-content: center; 
-             
-                      }
-          .border_hedline{
-            height: 10% ;
-            width: 100%;
-            display: flex;
-           
-            }
-          .border_text{
-    display: flex;
-    align-items: center;
- 
+                display: flex;
+                flex-direction: row;
+                }
 
-            }
+                  /*icon*/   
+                    .border_two{     
+                     width:  20%;
+                     flex:0;
+                     display: flex;
+                     flex-direction: column;
+                     }
+
+                  /*text 2*/
+
+                     .h2_text{                       
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                      }
+
+                     .h2_text div {
+                     flex: 1;
+                     flex-grow: 0;
+                      }
+                    
+                    /*headline*/
+                         .h2{
+                         font-family: 'Concert One', cursive;
+                          height: 20%;
+                          display: inline-flex;                  
+                          flex-wrap: wrap;
+                          margin-bottom: 2%;
+                          text-align: center; 
+                          letter-spacing: 8px;
+                          font-size: 35px;                        
+                           }
+                      
+                    /*text */   
+                        .border_text{
+                          font-family: 'Concert One', cursive;     
+                          height: 60%;
+                          width: 100%;
+                          display: inline-flex; 
+                          line-height: 20px;
+                          letter-spacing: 4px;
+                          font-size: 25px;                                                                                                    
+                          }
                
  /*footer*/
   .footer{
   margin-top: 5%;
+  margin-right: 5%;
   height: 50px;
   width: 100%;
   background-color: #A4EC4A;
   display: flex;
   justify-content: flex-end;
   align-items:center;
-
-  }      
+}
