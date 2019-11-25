@@ -1,0 +1,89 @@
+@import url(reset.css);
+.one{height: 100%
+	 width:100%;
+    background-color: #FFEBCD}
+
+/*HAT*/
+     .header{
+       line-height: 50px;
+       width: 100%;
+       padding-left: 2vw;
+       margin-bottom: 0.5vw;
+       box-shadow:5px 4px 40px 4px #ce9ad6;
+       background-color: #6A5ACD;
+       font-family:'Permanent Marker', cursive;
+       font-weight: 600;
+       font-family: cursive;
+       font-size: 30px;
+       color:#f4edf5;
+             }
+
+/*old section*/
+
+           .columns {
+            background-color: #9932CC;
+            width: 80%;
+            margin: auto;
+            min-height: 500px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+                     }
+/*speaker*/
+                 .column {
+	                 width: calc((100% - 40px)/3);
+	                 background-color: #9932CC;
+	                 border:1px solid black;
+	                       }
+/*image3*/
+                        .image3 {
+	                        background-image: url(../img/3.jpg);
+	                        background-size: cover;
+	                        background-position: center; 
+	                        padding-bottom: 100%;
+                          box-shadow:2px 4px 40px 4px #c3abc7;
+                                }  
+/*image2*/
+                        .image2 {
+	                        background-image: url(../img/2.jpg);
+	                        background-size: cover;
+	                        background-position: center; 
+	                        padding-bottom: 100%;
+	                        box-shadow:4px 4px 40px 4px #c3abc7;
+                                 } 
+/*image1*/                                  
+                         .image1 {
+	                        background-image: url(../img/1,1.jpg);
+	                        background-size: cover;
+	                        background-position: center; 
+	                        padding-bottom: 100%;
+	                        box-shadow:4px 4px 40px 4px #c3abc7;
+                                  }  
+
+
+                               .H{
+	                               text-align: center;
+	                               font-weight: 600;
+	                               font-family: 'Amatic SC', cursive;
+                                 font-size:200%;
+                                 color:#f4edf5;
+                                   }
+
+
+                               ul{padding:10%;
+                                color:#f0f1f2;
+                                font-family: 'Amatic SC', cursive;
+                               }
+
+
+     .footer{
+        width: 100%;
+        margin-top: 0.5vw;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 2vw;
+	      background-color: #6A5ACD;
+	      font-family: 'Arial','Helvetica' sans-serif;
+	      box-shadow:4px -8px 40px 2px #ce9ad6;
+        color:#f4edf5;
+	          }
