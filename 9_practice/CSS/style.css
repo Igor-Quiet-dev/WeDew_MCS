@@ -1,0 +1,227 @@
+@import url(reset.css);
+
+
+.page {
+    /* Desktop */
+         position: absulute;
+         width: 375px;
+         height: 1025px;
+         background: #FFFFFF;
+  }
+           .Header {
+            position: absolute;
+            width: 375px;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+            background: #0000FF;
+
+}
+.h1 {  /* My feed */
+                position: absolute;
+                width: 94px;
+                height: 29px;
+                left: 30px;
+                top: 35px;
+                font-family: Helvetica;
+                font-size: 25px;
+                line-height: 29px;
+/* identical to box height */
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;}
+
+/*box_1*/
+     .div1 {
+           position: absolute;
+           width: 330px;
+           height: 165px;
+           left: 23px;
+           top: 120px;
+           border: 5px solid #000000;
+           box-sizing: border-box;
+           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*A Sleepeng Octopus Changes Color While Dreaming*/          
+                       font-family: Helvetica;
+                       font-size: 25px;
+                       line-height: 29px;
+                       display: flex;
+                       align-items: center;
+                       text-align: center;
+                       color: #000000;}
+
+/*box_2*/
+          .div2 {position: absolute;
+                width: 330px;
+                height: 165px;
+                left: 23px;
+                top: 326px;
+                border: 5px solid #000000;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*Why We Need a Speed Limit for the Internet*/                
+                            font-family: Helvetica;
+                            font-size: 25px;
+                            line-height: 29px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            color: #000000;}
+
+/*box_3*/
+              .div3 {
+                    position: absolute;
+                    width: 330px;
+                    height: 165px;
+                    left: 23px;
+                    top: 532px;
+                    border: 5px solid #000000;
+                    box-sizing: border-box;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*Yhe 'Ghost Work' Powering Tech Magic*/                   
+                             font-family: Helvetica;
+                             font-size: 25px;
+                             line-height: 29px;
+                             display: flex;
+                             align-items: center;
+                             text-align: center;
+                             color: #000000;}
+
+/*box_4*/
+                 .div4 {position: absolute;
+                       width: 330px;
+                       height: 165px;
+                       left: 23px;
+                       top: 738px;
+                       border: 5px solid #000000;
+                       box-sizing: border-box;
+                       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*Don't Buy What Virgil Abloh is Selling*/                       
+                               font-family: Helvetica;
+                               font-size: 25px;
+                               line-height: 29px;
+                               display: flex;
+                               align-items: center;
+                               text-align: center;
+                               color: #000000;
+                               }
+
+  /* footer */
+    .foother {
+            position: absolute;
+            width: 375px;
+            height: 100px;
+            left: 0px;
+            top: 924px;
+            background: #0000FF;
+            }
+
+/* Copyright 2019 */
+                    .left {
+                           position: absolute;
+                           width: 181px;
+                           height: 29px;
+                           left: 30px;
+                           top: 32px;
+/* identical to box height */
+                           font-family: Helvetica;
+                           font-size: 25px;
+                           line-height: 29px;
+                           color: #FFFFFF;
+                           display: flex;
+                           align-items: center;
+                            }
+                            
+/* Back */
+                     .right {
+                            position: absolute;
+                            width: 60px;
+                            height: 29px;
+                            left: 285px;
+                            top: 32px;
+/* identical to box height */                            
+                            font-family: Helvetica;
+                            font-size: 25px;
+                            line-height: 29px;
+                            display: flex;
+                            color: #FFFFFF;
+                            align-items: center;
+                            text-align: right;
+                            
+                            }
+
+
+
+@media screen and (min-width: 600px)
+{
+  .page {
+/* Desktop */
+         width: 1440px;
+         height: 1024px;
+         left: 0px;
+         top: 0px;}
+
+
+      .Header {
+               width: 1440px;
+              }
+
+/* box1 */                 
+                  .div1 {
+                         width: 600px;
+                         height: 300px;
+                         left: 110px;
+                         top: 202px;
+/*A Sleepeng Octopus Changes Color While Dreaming*/          
+                         font-size: 50px;
+                         line-height: 57px;
+                        }
+/*box_2*/
+
+                  .div2 {
+                         width: 600px;
+                         height: 300px;
+                         left: 730px;
+                         top: 202px;
+/*Why We Need a Speed Limit for the Internet*/
+                         font-size: 50px;
+                         line-height: 57px;
+                         }
+
+/*box_3*/
+                  .div3 {
+                         width: 600px;
+                         height: 300px;
+                         left: 110px;
+                         top: 522px;
+/*Yhe 'Ghost Work' Powering Tech Magic*/                         
+                         font-size: 50px;
+                         line-height: 57px;                             
+                         }
+/*box_4*/
+                  .div4 {
+                         width: 600px;
+                         height: 300px;
+                         left: 730px;
+                         top: 522px;
+/*Don't Buy What Virgil Abloh is Selling*/
+                         font-size: 50px;
+                         line-height: 57px;
+                         }
+/* footer */
+  .foother {
+            width: 1440px;  
+            }
+
+/* Copyright 2019 */
+            .left {
+                    
+                   left: 30px;
+                   }
+/* Back */
+           .right {
+                   
+                   left: 1350px;
+                   }                         
+}  
+  
