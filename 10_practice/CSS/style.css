@@ -1,0 +1,260 @@
+@import url(reset.css);
+
+html{
+height: 100%;
+  }
+
+
+body{ display: flex;
+     flex: 0 0 auto;/* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+      flex-direction: column;
+       background: url(../img/marketing-header.jpg) no-repeat center center ;
+              background-size: cover; 
+      height: 100%;
+	  
+      
+    }
+    
+header{display: flex;
+       flex: 0 0 auto;
+       }
+
+       .text_header{
+            font-size: 2.5rem;
+          }
+
+
+/*HAT*/
+               .nav  {
+                      display: inline-flex;
+                      justify-content: space-around;
+                      align-items: center;
+
+                      box-shadow:5px 4px 40px 4px white;
+                      width: 100%;
+                      background-color: #403f3f;
+                      opacity: 85%;
+                      justify-content: 
+
+                      line-height: ;
+                      font-weight: 600;
+                      font-size: 50px;
+                      color:white;
+                      font-family:
+                    }
+
+                  ul {
+                    top: 1%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                     }
+                  ul li {
+                    list-style: none;
+                  }
+                  ul li a {
+                    position: relative; 
+                    display: inline-block;
+                    margin: 0 10%;
+                    padding: 5px 10px;
+                    color: #aaa;
+                    font-size: 0.9rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    transition: 0.5s;
+                    overflow: hidden;
+
+                  }
+                  ul li a::before {
+                    content: '';
+                    position: absolute;
+                    top: calc(100% - 2px);
+                    left: -100%;
+                    width: 100%;
+                    height: 10px;
+                    background: white;
+                    transition: 0.5s;
+                    border-radius: 50px
+                  }
+                  ul li a:hover {
+                    color: #403f3f;
+                  }
+                  ul li a:hover::before {
+                    animation: animate .4s linear forwards; 
+                  }
+
+                  @keyframes animate {
+                    0% {
+                      text-shadow: 0 0 3px black;
+                      top: calc(50% - 2px);
+                      left: 10%;
+                      height: 0.1px;
+                      z-index: 1;
+                    }
+                    50% {
+                     
+                      text-shadow: 0 0 30px black;
+                      top: calc(50% - 2px);
+                      left: 0;
+                      height: 2px;
+                      z-index: 1;
+                    }
+                    100% {
+                      text-shadow: 0 0 3px black;
+                      top: 0;
+                      left: 0;
+                      height:100%;
+                      z-index: -1;
+                    }
+                  }
+
+
+
+.main-content {
+              display: flex;
+              flex: 1 0 auto;/* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+              align-items: center;
+              height: 76%;
+              }
+
+
+                    form {
+
+                           display: flex;
+                           flex-flow: column;
+                           
+                           justify-content: space-around;
+                           margin-left:  7.5%;
+                               height: 85%;
+                           box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -18px -32px 0px -26px rgba(117,82,255,0.89);
+                           border-width: 15px;
+                           border-style: outset;
+                           border-color: #4059C3;
+                           border-radius: 100px 100px 100px 100px;
+                          } 
+
+                              .border{
+                                    
+                              }
+
+                        fieldset {  
+                                    padding-right: 14px;  
+                                    padding-left: 14px;
+                                    }
+
+                            legend {
+                                   vertical-align: middle;
+                                   font-size: 1.5 em;
+                                   text-align: center;
+                                   font-weight: 600;
+                                   }
+
+                                .legend1 {
+                                          padding-bottom: 10% 0 10% 0;
+                                          }
+                                .legend2 {
+                                          padding-top: 5%;
+                                          }
+
+
+                                  input, select, textarea {
+                                                          display: block;
+                                                          width: 98%;
+                                                          font-size: 0.9rem;
+                                                          color: #403f3f;
+                                                          margin-top: 2%;
+                                                          margin-bottom: 2%;
+                                                          }
+
+                                 input {
+                                       height: 8%;
+                                       }
+
+                                 label {
+                                       line-height: 1rem;
+                                       font-size: 1.1rem;
+                                       display: block;
+                                       }
+
+                                 textarea {
+                                          height: 5%;
+                                          }
+                                  
+                                  input[type="checkbox"]{
+                                                        display: inline-flex;
+                                                        width: 20px;
+                                                        height: auto;
+                                                        vertical-align: middle;
+                                                        
+                                                        }
+                                                        span {
+                                                          line-height: 1rem;
+                                                          font-size: 16px;}
+  
+
+                                   input[type="submit"]{
+
+                                                       background-color: #4f4742;
+                                                       border-radius: 200px 200px 200px 200px;
+                                                       box-shadow: 5px 5px 15px 5px #f2e9e4, -9px 5px 15px 5px #f0e5df;
+                                                       color: #d1bcc6;
+                                                       height: 12%;
+                                                       cursor: pointer;
+                                                       width: 70%;
+                                                       margin: auto;
+                                                       
+                                                       }
+
+                                          input:focus, textarea:focus, select:focus {
+                                                                             outline: none;}
+                                 
+
+                                   input[type="submit"]:hover{
+                                                             background-color: #f0c7af;
+                                                             color: black;
+                                                             }
+  
+             .foother { 
+                      
+                      display: flex;
+                      flex: 0 0 auto;
+                      justify-content: space-around;
+                      align-items: center;
+                      width: 100%;
+                      height: 60px;
+                      left: 0;
+                      bottom: 0;
+                      background: #403f3f;
+                    }
+
+
+                    .left {
+                          display: flex;
+                           
+                           
+                           height: 29px;
+                           left: 4%;
+                           
+
+                           font-family: Helvetica;
+                           font-size: 17px;
+                           line-height: 29px;
+                           color: #adadad;
+                           }
+
+
+                     .right {
+                            display: flex;
+                            
+                            
+                            
+                            
+                           
+                            font-family: Helvetica;
+                            font-size: 25px;
+                            line-height: 29px;
+                            
+                            color: #ed2485;
+                           
+                            }
+                            
